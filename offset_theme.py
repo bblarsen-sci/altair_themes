@@ -11,6 +11,7 @@ def offset_theme():
 
     return {
         "config": { #https://altair-viz.github.io/user_guide/generated/core/altair.Config.html#altair.Config
+            "autosize": "fit",
             "font": "Helvetica",
             "title": {
                 "fontSize": 18,
@@ -71,8 +72,8 @@ def offset_theme():
             },
             "view": { #https://altair-viz.github.io/user_guide/generated/core/altair.ViewConfig.html#altair.ViewConfig
                 "strokeWidth": 0, # Remove the border around the visualization
-                "height": 300,
-                "width": 300,
+                "continuousWidth": 300,
+                "continuousHeight": 300,
             },
         }
     }
