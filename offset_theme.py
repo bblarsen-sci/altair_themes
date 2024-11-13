@@ -10,25 +10,25 @@ def offset_theme():
     gridColor = "#DEDDDD"
 
     return {
-    	#"width": 200,
-    	#"height": 200,
+    	"width": 300,
+    	"height": 300,
         "config": { #https://altair-viz.github.io/user_guide/generated/core/altair.Config.html#altair.Config
             "font": "Helvetica",
             "title": {
                 "fontSize": 18,
-                "fontWeight": 'bold',
+                "fontWeight": "bold",
                 "anchor": "middle",
                 "color": "#000000",
-                "orient": 'top',
+                "orient": "top",
                 "subtitleColor": gridColor,
-                "subtitleFontWeight": 'normal',
+                "subtitleFontWeight": "normal",
                 "subtitleFontSize": 16,
                 "subtitlePadding": 2,
             },
             "header": {
                 "labelFontWeight": "bold",
                 "labelFontSize": 14,
-                "labelOrient": 'top',
+                "labelOrient": "top",
             },
             "axis": {
                 "domain": True,
@@ -45,28 +45,28 @@ def offset_theme():
                 "labels": True,
                 "labelFontSize": 14,
                 "labelFlush": False,
-                "labelFontWeight": 'normal',
+                "labelFontWeight": "normal",
                 "labelPadding": 4,
                 
                 "ticks": True,
-                "tickCap": 'butt',
+                "tickCap": "butt",
                 "tickColor": axisColor,
                 "tickSize": 4,
                 "tickCount": 4,
                 "tickWidth": 1,
                 
                 "titleColor": axisColor,
-                "titleAlign": 'center',
-                "titleFontWeight": 'bold',
+                "titleAlign": "center",
+                "titleFontWeight": "bold",
                 "titleFontSize": 16,
                 "titlePadding": 10,
             },
             "legend": {
                 "labelFontSize": 14,
-                "labelFontWeight": 'light',
+                "labelFontWeight": "lighter",
                 "symbolSize": 100,
                 "titleFontSize": 14,
-                "titleFontWeight": 'bold',
+                "titleFontWeight": "bold",
                 "padding": 5,
                 "titleLimit": 200,
                 "gradientLength": 100,
@@ -77,11 +77,6 @@ def offset_theme():
             },
             "view": { #https://altair-viz.github.io/user_guide/generated/core/altair.ViewConfig.html#altair.ViewConfig
                 "stroke": None, # Remove the border around the visualization
-                #"continuousWidth": 300,
-                #"continuousHeight": 300,
-                #"discreteWidth": 300,
-                #"discreteHeight": 300,
-            	#"strokeWidth": 0,
             },
         }
     }
