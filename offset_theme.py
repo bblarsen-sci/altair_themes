@@ -10,8 +10,8 @@ def offset_theme():
     gridColor = "#DEDDDD"
 
     return {
-    	#"width": 300,
-    	#"height": 300,
+    	"width": 400,
+    	"height": 400,
         "config": { #https://altair-viz.github.io/user_guide/generated/core/altair.Config.html#altair.Config
             "font": "Helvetica",
             "title": {
@@ -35,31 +35,27 @@ def offset_theme():
                 "domainCap": "square",
                 "domainColor": axisColor,
                 "domainWidth": 1,
-                
                 "grid": False,
                 "gridCap": "square",
                 "gridColor": gridColor,
                 "gridOpacity": 1,
                 "gridWidth": 0.5,
-                
                 "labels": True,
                 "labelFontSize": 14,
                 "labelFlush": False,
                 "labelFontWeight": "normal",
                 "labelPadding": 4,
-                
                 "ticks": True,
                 "tickCap": "butt",
                 "tickColor": axisColor,
                 "tickSize": 4,
                 "tickCount": 4,
                 "tickWidth": 1,
-                
                 "titleColor": axisColor,
                 "titleAlign": "center",
                 "titleFontWeight": "bold",
                 "titleFontSize": 16,
-                "titlePadding": 10,
+                "titlePadding": 4,
             },
             "legend": {
                 "labelFontSize": 14,
