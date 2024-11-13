@@ -44,7 +44,7 @@ def offset_theme():
                 "gridWidth": 0.5,
                 
                 "labels": True,
-                "labelAlign": "center",
+                #"labelAlign": "center",
                 "labelFontSize": 12,
                 "labelFlush": False,
                 "labelFontWeight": 'light',
@@ -57,11 +57,11 @@ def offset_theme():
                 "tickCount": 4,
                 "tickWidth": 1,
                 
-                "titleColor": 'black',
+                "titleColor": axisColor,
                 "titleAlign": 'center',
                 "titleFontWeight": 'bold',
                 "titleFontSize": 14,
-                "titlePadding": 5,
+                "titlePadding": 10,
             },
             "legend": {
                 "labelFontSize": 14,
