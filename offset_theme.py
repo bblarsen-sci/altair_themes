@@ -10,10 +10,10 @@ def offset_theme():
     gridColor = "#DEDDDD"
 
     return {
-    	"height": 400,
-    	"width": 400,
+    	#"height": 400,
+    	#"width": 400,
         "config": { #https://altair-viz.github.io/user_guide/generated/core/altair.Config.html#altair.Config
-            "font": "Helvetica",
+            #"font": "Helvetica",
             "title": {
                 "fontSize": 18,
                 "fontWeight": "bold",
