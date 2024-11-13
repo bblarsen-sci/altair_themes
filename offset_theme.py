@@ -13,15 +13,15 @@ def offset_theme():
     gridColor = "#DEDDDD"
 
     return {
-        "config": {
-            "background": "white",
+        "config": { #https://altair-viz.github.io/user_guide/generated/core/altair.Config.html#altair.Config
+            "font": "Helvetica",
             "title": {
                 "fontSize": 18,
                 "fontWeight": 'bold',
                 "anchor": "middle",
                 "color": "#000000",
                 "orient": 'top',
-                "subtitleColor": 'gray',
+                "subtitleColor": gridColor,
                 "subtitleFontWeight": 'normal',
                 "subtitleFontSize": 16,
                 "subtitlePadding": 2,
@@ -44,14 +44,13 @@ def offset_theme():
                 "gridWidth": 0.5,
                 
                 "labels": True,
-                #"labelAlign": "center",
                 "labelFontSize": 12,
                 "labelFlush": False,
-                "labelFontWeight": 'light',
+                "labelFontWeight": 'normal',
                 "labelPadding": 2,
                 
                 "ticks": True,
-                "tickCap": 'butt', #butt,round,or square
+                "tickCap": 'butt',
                 "tickColor": axisColor,
                 "tickSize": 4,
                 "tickCount": 4,
@@ -77,9 +76,9 @@ def offset_theme():
                 "category": main_palette,
                 "diverging": sequential_palette,
             },
-            "view": {
-                "stroke": "transparent", # Remove the border around the visualization
-            	"strokeWidth": 0,
-            },
+            #"view": { #https://altair-viz.github.io/user_guide/generated/core/altair.ViewConfig.html#altair.ViewConfig
+                #"stroke": "transparent", # Remove the border around the visualization
+            	#"strokeWidth": 0,
+            #},
         }
     }
