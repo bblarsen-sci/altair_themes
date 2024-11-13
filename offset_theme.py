@@ -10,8 +10,6 @@ def offset_theme():
     gridColor = "#DEDDDD"
 
     return {
-    	"width": 400,
-    	"height": 400,
         "config": { #https://altair-viz.github.io/user_guide/generated/core/altair.Config.html#altair.Config
             "font": "Helvetica",
             "title": {
@@ -72,7 +70,7 @@ def offset_theme():
                 "diverging": sequential_palette,
             },
             "view": { #https://altair-viz.github.io/user_guide/generated/core/altair.ViewConfig.html#altair.ViewConfig
-                "stroke": None, # Remove the border around the visualization
+                "strokeWidth": 0, # Remove the border around the visualization
             },
         }
     }
