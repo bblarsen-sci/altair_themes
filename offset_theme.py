@@ -11,7 +11,7 @@ def offset_theme():
 
     return {
         "config": { #https://altair-viz.github.io/user_guide/generated/core/altair.Config.html#altair.Config
-            "autosize": "fit",
+            "autosize": "pad",
             "font": "Helvetica",
             "title": {
                 "fontSize": 18,
