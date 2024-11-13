@@ -11,8 +11,7 @@ def offset_theme():
 
     return {
         "config": { #https://altair-viz.github.io/user_guide/generated/core/altair.Config.html#altair.Config
-            "autosize": "pad",
-            "font": "Helvetica",
+            "autosize": "fit",
             "title": {
                 "fontSize": 18,
                 "fontWeight": "bold",
@@ -31,30 +30,34 @@ def offset_theme():
             },
             "axis": {
                 "domain": True,
-                "domainCap": "square",
+                "domainCap": "butt",
                 "domainColor": axisColor,
                 "domainWidth": 1,
+                
                 "grid": False,
-                "gridCap": "square",
+                "gridCap": "butt",
                 "gridColor": gridColor,
                 "gridOpacity": 1,
                 "gridWidth": 0.5,
+                
                 "labels": True,
-                "labelFontSize": 12,
+                "labelFontSize": 14,
                 "labelFlush": False,
                 "labelFontWeight": "normal",
-                "labelPadding": 2,
+                "labelPadding": 5,
+                
                 "ticks": True,
                 "tickCap": "butt",
                 "tickColor": axisColor,
                 "tickSize": 4,
                 "tickCount": 4,
                 "tickWidth": 1,
+                
                 "titleColor": axisColor,
                 "titleAlign": "center",
                 "titleFontWeight": "bold",
                 "titleFontSize": 14,
-                "titlePadding": 2,
+                "titlePadding": 5,
             },
             "legend": {
                 "labelFontSize": 14,
