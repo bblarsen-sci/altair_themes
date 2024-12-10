@@ -14,7 +14,7 @@ def heatmap_theme():
     
     return {
         "config": {
-            "background": "transparent",
+            "background": "white",
             "title": {
                 "fontSize": 24,
                 "fontWeight": 'normal',
@@ -69,6 +69,9 @@ def heatmap_theme():
                 "padding": 2,
                 "titleLimit": 200,
                 "gradientLength": 75,
+                "gradientStrokeColor": 'black',
+                "gradientStrokeWidth": 1,
+                
             },
             "range": {
                 "category": main_palette,
