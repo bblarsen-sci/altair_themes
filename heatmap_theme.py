@@ -18,13 +18,13 @@ def heatmap_theme():
             "title": {
                 "fontSize": 24,
                 "fontWeight": 'normal',
-                "font": font,
+                #"font": font,
                 "anchor": "start",
                 "color": axisColor,
                 "orient": 'top',
                 "offset": 5,
                 "subtitleColor": 'gray',
-                "subtitleFont": font,
+                #"subtitleFont": font,
                 "subtitleFontWeight": 'normal',
                 "subtitleFontSize": 18,
                 "subtitlePadding": 2,
@@ -39,7 +39,7 @@ def heatmap_theme():
                 "gridColor": gridColor,
                 "gridWidth": 0.5,
                 #label
-                "labelFont": font,
+                #"labelFont": font,
                 "labelFontSize": 12,
                 "labelFlush": False,
                 "labelFontWeight": 'normal',
@@ -52,17 +52,17 @@ def heatmap_theme():
                 #"tickCount": 3,
                 "tickWidth": 1,
                 #title
-                "titleFont": font,
+                #"titleFont": font,
                 "titleAlign": 'center',
                 "titleFontWeight": 'bold',
                 "titleFontSize": 14,
                 "titlePadding": 5,
             },
             "legend": {
-                "labelFont": font,
+                #"labelFont": font,
                 "labelFontSize": 12,
                 "symbolSize": 100,
-                "titleFont": font,
+                #"titleFont": font,
                 "titleFontSize": 14,
                 "titleFontWeight": 'normal',
                 "titlePadding": 3,
@@ -82,7 +82,7 @@ def heatmap_theme():
             	"strokeWidth": 0,
             },
         	"text": {
-            	"font": font,
+            	#"font": font,
             	"fontSize": 14,
         	}
         }
